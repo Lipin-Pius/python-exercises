@@ -1,0 +1,6 @@
+calc.egg-info/PKG-INFO
+calc.egg-info/SOURCES.txt
+calc.egg-info/dependency_links.txt
+calc.egg-info/entry_points.txt
+calc.egg-info/requires.txt
+calc.egg-info/top_level.txt
