@@ -15,8 +15,4 @@ def calc(add,sub,mul,div):
 		print (mul[0]*mul[1])# printing the product of two parameters
 	elif div and not add and not sub and not mul:# if the option is only --div
 		print (div[0]/div[1])# printing the division of two parameters
-if __name__=='__main__': # main function
-	pass
-
-
 
