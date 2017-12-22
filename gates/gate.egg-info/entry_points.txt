@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        gates=gates:cli
+    

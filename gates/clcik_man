@@ -1,0 +1,9 @@
+$ python3 -m venv env
+$ source env/bin/activate
+$ pip install --editable .
+Obtaining file:///home/kdas/code/practice/yoclick
+Collecting Click (from myhello==0.1)
+  Using cached click-6.7-py2.py3-none-any.whl
+Installing collected packages: Click, myhello
+  Running setup.py develop for myhello
+Successfully installed Click-6.7 myhello
