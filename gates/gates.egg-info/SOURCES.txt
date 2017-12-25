@@ -1,0 +1,6 @@
+gates.egg-info/PKG-INFO
+gates.egg-info/SOURCES.txt
+gates.egg-info/dependency_links.txt
+gates.egg-info/entry_points.txt
+gates.egg-info/requires.txt
+gates.egg-info/top_level.txt

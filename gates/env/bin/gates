@@ -1,10 +1,10 @@
 #!/home/lipin/python-exercises/gates/env/bin/python3
-# EASY-INSTALL-ENTRY-SCRIPT: 'gate','console_scripts','gates'
-__requires__ = 'gate'
+# EASY-INSTALL-ENTRY-SCRIPT: 'gates','console_scripts','gates'
+__requires__ = 'gates'
 import sys
 from pkg_resources import load_entry_point
 
 if __name__ == '__main__':
     sys.exit(
-        load_entry_point('gate', 'console_scripts', 'gates')()
+        load_entry_point('gates', 'console_scripts', 'gates')()
     )

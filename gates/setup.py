@@ -2,13 +2,13 @@ from setuptools import setup
 
 setup(
     name="gates",
-    version='0.1',
-    py_modules=['gates'],
+    version='1.0',
+    py_modules=['calc'],
     install_requires=[
         'Click',
     ],
     entry_points='''
         [console_scripts]
-        gates=gates:cli
+        gates=gates:gates
     ''',
 )
