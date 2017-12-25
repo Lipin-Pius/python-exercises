@@ -17,7 +17,7 @@ def gates(nand, nor):
         print(nOr)
 
 
-class Gate(object): #Bsoc functionalities of a logic ggate input logic and output
+class Gate(object): #Basic functionalities of a logic gate input, logic and output
 
     def __init__(self, *args):
         self.input = args
@@ -30,28 +30,28 @@ class Gate(object): #Bsoc functionalities of a logic ggate input logic and outpu
         return self.output
 
 
-class AndGate(Gate): #simulation of And logic
+class AndGate(Gate): #Simulation of And logic
 
     def logic(self):
         self.output = self.input[0] and self.input[1]
         return self.output
 
 
-class OrGate(Gate): # simulation of Or Logic
+class OrGate(Gate): # Simulation of Or Logic
 
     def logic(self):
         self.output = self.input[0] or self.input[1]
         return self.output
 
 
-class NotGate(Gate): # simulation of Not logic
+class NotGate(Gate): # Simulation of Not logic
 
     def logic(self):
         self.output = not self.input[0]
         return self.output
 
 
-class NandGate(AndGate, NotGate): # simulation of Nand Logic
+class NandGate(AndGate, NotGate): # Simulation of Nand Logic
 
     def logic(self):
         andResult = super(NandGate, self).logic()
