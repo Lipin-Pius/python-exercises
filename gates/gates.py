@@ -10,7 +10,7 @@ import click
 @click.option('--nor', nargs=2, type=bool)
 def gates(nand, nor):
     if nand and not nor:
-        nAnd = NandGate(nand[0], nand[1]).logic()
+        nAnd = NandGate(nand[0],nand[1]).logic()
         print(nAnd)
     elif nor and not nand:
         nOr = NorGate(nor).logic()
